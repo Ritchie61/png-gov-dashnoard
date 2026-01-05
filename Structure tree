@@ -1,0 +1,28 @@
+national-dashboard/
+│
+├─ backend/
+│   ├─ app/
+│   │   ├─ main.py           # FastAPI app
+│   │   ├─ models.py         # DB models (SQLAlchemy)
+│   │   ├─ database.py       # DB connection
+│   │   ├─ etl.py            # ETL scripts for CSV/PDF
+│   │   ├─ rag_logic.py      # RAG computation
+│   │   └─ schemas.py        # Pydantic schemas
+│   └─ requirements.txt
+│
+├─ frontend/
+│   ├─ public/
+│   ├─ src/
+│   │   ├─ App.jsx
+│   │   ├─ index.jsx
+│   │   ├─ components/
+│   │   │   ├─ Dashboard.jsx
+│   │   │   ├─ ProjectTable.jsx
+│   │   │   └─ RagTile.jsx
+│   │   └─ api/
+│   │       └─ api.js        # Axios calls to backend
+│   └─ package.json
+│
+└─ data_samples/
+    ├─ projects.csv
+    └─ sample_report.pdf
