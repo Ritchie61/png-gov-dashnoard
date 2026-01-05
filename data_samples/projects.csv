@@ -1,0 +1,4 @@
+project_id,name,department,status,budget_allocated,budget_spent,start_date,end_date,risks
+P001,Health Clinic Upgrade,Health,On Track,1000000,400000,2026-01-01,2026-12-31,Late equipment delivery
+P002,Road Rehabilitation,Transport,At Risk,2000000,1800000,2026-01-15,2026-11-30,Weather delays
+P003,School ICT Upgrade,Education,Delayed,500000,520000,2026-02-01,2026-12-31,Vendor delays
